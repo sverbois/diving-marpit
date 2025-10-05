@@ -45,10 +45,10 @@ Sébastien Verbois
 
 # Quatre temps
 
-1. **Planification** (avant la plongée / la veille) : définir l’objectif, les rôles et les paramètres de la plongée en fonction des personnes, du lieu et du matériel -> plan de plongée
+1. **Planification** (avant la plongée / la veille) : définir l’objectif, les rôles et les paramètres de la plongée en fonction des personnes, du lieu et du matériel; préparer la sécurité -> plan de plongée
 2. **Briefing** (avant la mise à l'eau) : expliquer le déroulement, rappeler les protocoles et signes, organiser la sécurité et vérifier le matériel
 3. **Plongée** (pendant la plongée) : exécuter le plan en respectant les règles de sécurité et la communication
-4. **Debriefing** (après la plongée) : analyser le déroulement, partager les observations et identifier les points d’amélioration
+4. **Debriefing** (après la plongée) : analyser le déroulement, partager les observations et identifier les points d’amélioration; donner les consignes de sécurité post-plongée
 
 ---
 
@@ -79,7 +79,7 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
   - CMAS, PADI, SDI/TDI, IANTD, GUE
 - **En ordre d'assurance**
   - LIFRAS : assurance liée à la cotisation à un club
-  - DAN : assurance indépendante la plus répendue dans le monde
+  - DAN : assurance indépendante très répendue dans le monde
 - **En ordre de visite médicale**
   - LIFRAS : visite annuelle valable jusqu'au 31 janvier de l'année suivante
 - WHOIS Lifras : https://www9.iclub.be/whois2.asp?ClubID=202
@@ -129,7 +129,13 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 - Type d'ordinateur / Backup
 - Sévérité / Gradients facteurs
-- **Réaliser une simulation**
+- **Réaliser une simulation** (voir le cour *Décompression*)
+- Palier de sécurité
+  - 5 min à 5 m si no-déco
+  - prolonger le dernier palier de 5 min si déco obligatoire
+- Intervalle entre plongées
+  - 2 heures si plongée no-déco
+  - 3 heures si plongée déco et 4 heures si séjour de plongée intensive
 
 ---
 
@@ -139,6 +145,7 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 - Bouteille(s) : capacité, pression, contenu (air, nitrox)
 - Détendeurs
 - Parachute(s), couteau, masque backup, boussole, lampe(s)
+- Matériel adapté (mer/eau douce)
 - **Matériel habituel**
 
 ---
@@ -148,9 +155,6 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 - Réglementation pays/site : Profondeur max / PpO2 max / Déco OK
 - Météo / Température eau / Courant / Thermocline
 - Caractéristiques : Plan / Maquette , Attraits, **Dangers**
-- Organisation sécurité
-  - Oxygène / DEA / Caisson / Numéros de téléphone
-  - Sécurité bord / ponton / bateau
 - **Envies particulières**
 
 ---
@@ -159,8 +163,7 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 - Pression de demi-tour (Turn pressure)
 - Réserve
-  - No déco : 30 bars
-  - Déco : 50 + (profondeur max - 40)
+  - Profondeur maximale + 10 bars
   - Régle des 1/3 : 1/3 aller, 1/3 retour, 1/3 réserve
 - Voir par exemple : https://diving.streamlit.app/planning
 
@@ -168,12 +171,13 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 # Planification - Sécurité
 
-- Prévoir bouteille d'oxygène, bouteille de sécurité pour palier et trousse de premiers soins
+- Prévoir bouteille d'oxygène, bouteille de sécurité pour palier, trousse de premiers soins et défibrillateur
 - Prévoir de quoi s'hydrater
-- Numéro d'urgence : 112, DAN
+- Moyen de communication : GSM, radio VHF
 - Adresse caisson hyperbare le plus proche
+- Numéros d'urgence : 112, DAN, caisson,...
 - Matériel de sécurité spécifique du lieu (infirmerie, défibrillateur,...)
-- Protocole en cas d'incident
+- Organisation de la sécurité / Protocole en cas d'incident
 - Rédiger un **Plan de secours**
 
 ---
@@ -214,14 +218,25 @@ Rappel des paramètres du plan de plongée.
 
 Visualiser la plongée.
 
+- Mise à l'eau : gonfler son gilet, CP premier et SF dernier
+- Arrêt à 5m : bubble check, check ordi, check pression
+- Descente : pas plus bas que CP
+- Fond : signaler "turn pressure" / 100 bars, signaler réserve
+- Remontée : vitesse max de 10m/min, pas plus haut que CP
+- Surface : rester groupé, palier de surface
+- Sortie : SF premier, CP dernier
+
 ---
 
 # Briefing - Protocoles
 
-- 5 stops :
-  - TTS atteint, Temps de plongée atteint, Réserve atteinte
+- 5 stops
+  - TTS atteint
+  - Temps de plongée atteint
+  - Réserve atteinte
   - Rappel (bateau)
-  - Incident non maîtrisé (perte de compagnon, essoufflement, givrage)
+  - Incident non maîtrisé
+- Perte de compagnon, Essoufflement, Givrage
 
 ---
 
@@ -229,8 +244,8 @@ Visualiser la plongée.
 
 - Plan de secours à portée
 - Place du défibrillateur
-- Bouteille d'oxygène sur le bord
-- Bouteille de réserve pendue
+- Bouteille d'oxygène équipée et sur le bord
+- Bouteille de réserve équipée
 - Annonce départ, annonce retour
 
 ---
@@ -262,19 +277,19 @@ Visualiser la plongée.
 # Plongée
 
 1. Signaler son départ
-2. Mise à l'eau : **gonfler son gilet**, ordre de mise à l'eau
-3. Descente : arrêt bubble check
-4. Fond : **check consommation**, check froid
-5. Remontée : vitesse
-6. Sortie : ordre de sortie
-7. Signaler son retour
+2. Mise à l'eau : **gonfler son gilet**, surveiller ordre de mise à l'eau
+3. Arrêt à 5m : bubble check, **check ordi**, check pression
+4. Descente : pas plus bas que CP
+5. Fond : **check consommation**, check froid
+6. Remontée : pas plus vite que CP
+7. Surface : rester groupé
+8. Sortie : surveiller sécurité échelle
+9. Signaler son retour
 
 ---
 
 # Debriefing
 
-- Paramètre de la plongée / Compléter le carnet
-- Echange : commentaire, observations, incidents, points positifs/négatifs
-- Rappels sécurité (pas d'effort, pas d'apnée, pas d'avion avant 24H00, s'hydrater, pas de sauna)
-
----
+- **Paramètre** de la plongée / Compléter le carnet
+- **Echange** : commentaires, observations, incidents, points positifs/négatifs
+- **Sécurité** : pas d'effort, pas d'apnée, pas d'avion avant 12H si plongée unitaire no déco et 24H sinon, s'hydrater, pas de sauna
