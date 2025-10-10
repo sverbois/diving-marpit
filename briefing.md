@@ -6,9 +6,17 @@ paginate: true
 backgroundColor: white
 footer: EPSM Ciney - Octobre 2025
 style: |
-  section {border: 1px solid red;padding:20px 50px}
+  section {
+    padding: 20px 50px;
+    background-image: url('images/diving-mask.png') !important;
+    background-position: right 15px top 15px ;
+    background-repeat: no-repeat;
+    background-size: 8%;
+  }
+  section.lead {background-image:none !important;}
+  section.lead footer {display:none;}
   section footer {text-align: left;}
-  section h1 {color: #007bb1;}
+  section h1 {color: #ec7d02;}
   section.fs-small p {font-size: 30px;}
   section.fs-small li {font-size: 30px;}
   section.center {text-align: center;}
@@ -21,16 +29,16 @@ style: |
 
 <!--
 _paginate: skip
-_class: lead white
+_class: lead
 -->
 
-![bg](images/direction.png)
+![bg left:35% 80%](images/diving-mask.png)
 
 # Direction de palanquée
 
 #### Plan your dive and Dive your plan
 
-Sébastien Verbois
+EPSM Ciney - Octobre 2025
 
 ---
 
@@ -39,13 +47,13 @@ Sébastien Verbois
 - **Directif** : agir en chef, exprimer clairement ses consignes et décisions, sans agressivité.
 - **Calme** : garder son sang-froid, même en cas d’imprévu.
 - **Pédagogue** : expliquer simplement, adapter son discours au niveau des plongeurs.
-- **Prudent** : anticiper les risques et privilégier la sécurité avant tout.
+- **Prudent** : anticiper les risques et **privilégier la sécurité avant tout**.
 
 ---
 
 # Quatre temps
 
-1. **Planification** (avant la plongée / la veille) : définir l’objectif, les rôles et les paramètres de la plongée en fonction des personnes, du lieu et du matériel; préparer la sécurité -> plan de plongée
+1. **Planification** (avant la plongée / la veille) : définir l’objectif, les rôles et les paramètres de la plongée en fonction des personnes, du lieu et du matériel; préparer la sécurité -> plans de plongée et de sécurité
 2. **Briefing** (avant la mise à l'eau) : expliquer le déroulement, rappeler les protocoles et signes, organiser la sécurité et vérifier le matériel
 3. **Plongée** (pendant la plongée) : exécuter le plan en respectant les règles de sécurité et la communication
 4. **Debriefing** (après la plongée) : analyser le déroulement, partager les observations et identifier les points d’amélioration; donner les consignes de sécurité post-plongée
@@ -78,7 +86,7 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 - Fédération
   - CMAS, PADI, SDI/TDI, IANTD, GUE
 - **En ordre d'assurance**
-  - LIFRAS : assurance liée à la cotisation à un club
+  - LIFRAS : assurance liée à la cotisation annuelle à un club
   - DAN : assurance indépendante très répendue dans le monde
 - **En ordre de visite médicale**
   - LIFRAS : visite annuelle valable jusqu'au 31 janvier de l'année suivante
@@ -113,6 +121,17 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 ---
 
+# Rôles du serre-file
+
+Le serre-file doit être en mesure de reprendre la direction de palanquée.
+
+- Vérifie le matériel des membres de la palanquée avant la mise à l'eau.
+- Supervise la mise à l'eau et la sortie (dernier entré, premier sorti).
+- Pendant la plongée, il veille à ce que les membres de la palanquée restent groupés, ne descendent pas plus pas, ne rémontent pas plus vite.
+- Surveille les paramètres de la plongée et en particulier le TTS pour être prêt en cas de reprise de la direction de palanquée.
+
+---
+
 # Planification - Corps
 
 - Oreille / Sinus / Changement de profondeur
@@ -120,7 +139,7 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 - Stress (visibilité, faille, grotte)
 - Sensibilité à la narcose
 - Sensibilité au froid
-- Envie de plonger
+- **Envie de plonger**
 - Autres ?
 
 ---
@@ -150,10 +169,11 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 ---
 
-# Planification - Faune / Lieu de plongée
+# Planification - Faune / Lieu
 
 - Réglementation pays/site : Profondeur max / PpO2 max / Déco OK
-- Météo / Température eau / Courant / Thermocline
+- Température eau / Courant / Thermocline
+- Météo / Vent 
 - Caractéristiques : Plan / Maquette , Attraits, **Dangers**
 - **Envies particulières**
 
@@ -161,21 +181,23 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 # Planification - Gas
 
-- Pression de demi-tour (Turn pressure)
-- Réserve
-  - Profondeur maximale + 10 bars
+- **No déco**
+  - Réserve : 50 bars
+  - Pression de demi-tour (Turn pressure) : 1/2 + 25 bar
+- **Déco**
   - Régle des 1/3 : 1/3 aller, 1/3 retour, 1/3 réserve
+  - Pression de demi-tour : 2/3 de la quantité de départ
 - Voir par exemple : https://diving.streamlit.app/planning
 
 ---
 
 # Planification - Sécurité
 
-- Prévoir bouteille d'oxygène, bouteille de sécurité pour palier, trousse de premiers soins et défibrillateur
+- Prévoir **bouteille d'oxygène**, **bouteille de sécurité** pour palier, **trousse de premiers soins** et **défibrillateur**
 - Prévoir de quoi s'hydrater
 - Moyen de communication : GSM, radio VHF
 - Adresse caisson hyperbare le plus proche
-- Numéros d'urgence : 112, DAN, caisson,...
+- Numéros d'urgence : Application 112 sur le GSM, DAN, caisson
 - Matériel de sécurité spécifique du lieu (infirmerie, défibrillateur,...)
 - Organisation de la sécurité / Protocole en cas d'incident
 - Rédiger un **Plan de secours**
@@ -186,18 +208,61 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 Le plan de plongée est la synthèse de la planification.
 
-- **Objectif** : exploration, formation, photo, etc.
 - **Site** : lieu précis, conditions attendues (courant, visibilité, température).
-- **Sécurité** : procédures d’urgence, matériel de secours, point de sortie.
+- **Objectif** : exploration, formation, photo, etc.
 - **Logistique** : bateau, horaires, météo, moyens de communication.
-- **Profil** : profondeur maximale, durée maximale, pression de demi-tour, paliers, pression de réserve
 - **Palanquée** : rôles, serre-file, binômes et responsabilités.
+- **Paramètres** : profil (carré, multilevel), profondeur maximale, durée maximale, pression de demi-tour, paliers, pression de réserve
+- **Sécurité** : procédures d’urgence, matériel de secours, point de sortie.
+
+---
+
+# Exemple : Site/Logistique (1/4)
+
+- **Site** : Lac de la Plate Taille - Rue d'Oupia 2, 6440 Froidchapelle - Profondeur de 30m - Température surface de 18°C - Thermocline à 9m avec température qui descend à 8°C - Visibilité de 3m
+- **Objectif** : plongée d'exploration à 30m.
+- **Logistique** : RDV à 9H00 sur place. Mise à l'eau à 10H00. Temps ensoleillé annoncé avec température extérieure de 22°C.
+
+---
+
+# Exemple : Palanquée (2/4)
+
+- **Plongeurs**
+  - Sébastien - AM Lifras - RMV 16 - 20 pl sur site - 2*10L air à 190bar
+  - Kathy - 4* Lifras - RMV 9 - 30 pl sur site - 10L air à 210bar
+  - Jonas - IANTD AOW - RMV 17 - 2 pl sur site - 15L air à 200bar
+  - Sibylle - IANTD DD - RMV 15 - 3 pl sur site - 12L air à 210bar
+
+- **Rôles** :
+  - Chef de palanquée : Sébastien
+  - Serre-file :  Kathy
+  - Binômes : Sébastien/Jonas et Kathy/Sibylle
+
+---
+
+# Exemple : Profil (3/4)
+
+- Plongée NO_DECO
+- Profondeur maximale de 30m.
+- Durée maximale 50min
+- Réserve 50 bars
+- Palier de sécurité de 5min à 5m
+
+---
+
+# Exemple : Plan de sécurité (4/4)
+
+- **Lieu** : Lac de la Plate Taille - Rue d'Oupia 2, 6440 Froidchapelle; Point de sécurité PT09A
+- **Matériel** : O2/DEA/Civière disponibles à l'infirmerie à coté de l'accueil; O2 personnel et bouteille sécurité à côté de la mise à l'eau
+- **Contacts** : Urgences : 112 - DAN Belgique : 0800 / 123 82
+- **Caisson hyperbare** : CHU de Charleroi – Vésale – Service des urgences; Route de Gozée, 706 – 6110 Montigny-le-Tilleul; 071 / 923 461 ou 071 / 923 462
+- **Procédure** : Une personne à la barrière pour diriger les secours...
 
 ---
 
 # Briefing (PPP-SS-M)
 
-**3, 2, 1 : plonger !**
+**Plongée Sous-Marine : 3, 2, 1 plonger !**
 
 - **P**aramètres
 - **P**rofil
@@ -212,17 +277,22 @@ Le plan de plongée est la synthèse de la planification.
 
 Rappel des paramètres du plan de plongée.
 
+- Profondeur max - Temps max - TTS max
+- Pression de demi-tour
+- Réserve
+- Profondeur et durée de palier de sécurité
+
 ---
 
 # Briefing - Profil
 
-Visualiser la plongée.
-
+**Visualiser la plongée**.
 - Mise à l'eau : gonfler son gilet, CP premier et SF dernier
 - Arrêt à 5m : bubble check, check ordi, check pression
 - Descente : pas plus bas que CP
-- Fond : signaler "turn pressure" / 100 bars, signaler réserve
+- Fond : signaler "turn pressure" / 100 bars, signaler réserve, position
 - Remontée : vitesse max de 10m/min, pas plus haut que CP
+- Palliers : parachute
 - Surface : rester groupé, palier de surface
 - Sortie : SF premier, CP dernier
 
@@ -235,8 +305,9 @@ Visualiser la plongée.
   - Temps de plongée atteint
   - Réserve atteinte
   - Rappel (bateau)
-  - Incident non maîtrisé
-- Perte de compagnon, Essoufflement, Givrage
+  - Incident non maîtrisé ou événement imprévu qui perturbe la planification
+- Protocoles en cas d'incidents
+  - **Perte de compagnon**, Essoufflement, Givrage, Désorientation
 
 ---
 
@@ -246,18 +317,21 @@ Visualiser la plongée.
 - Place du défibrillateur
 - Bouteille d'oxygène équipée et sur le bord
 - Bouteille de réserve équipée
-- Annonce départ, annonce retour
+- **Annonce départ**, **annonce retour**
 
 ---
 
 # Briefing - Signes
 
-- Signes pression, mi-pression, réserve
-- Signes problèmes (panne d'air, oreille, froid, essoufflement, crampe,...)
-- Signe question
-- Signes paliers : une minute avant, TTS
-- Signe parachute
-- Signes avec lampe, Eviter d'éblouir
+- Questions : ok, pression, TTS, question
+- Commandement
+  - Direction : hold, descendre, monter, demi-tour
+  - Autres : ouvre parachute
+- Informations
+  - **Pression** : mi-pression, réserve, chiffres
+  - Problème : panne d'air, oreille, froid, essoufflement, crampe
+  - **Palier** : une minute avant, TTS atteint, Profondeur/Temps
+- Signes avec lampe (éviter d'éblouir)
 
 ---
 
@@ -270,7 +344,7 @@ Visualiser la plongée.
 - **check matériel**
   ordinateur(s) / lampe(s) / parachutes(s) / masque de secours / couteau
 - **signes distinctifs**
-  - couleurs / matériel particulier
+  couleurs / matériel particulier
 
 ---
 
@@ -290,6 +364,10 @@ Visualiser la plongée.
 
 # Debriefing
 
-- **Paramètre** de la plongée / Compléter le carnet
+- **Paramètres** de la plongée / Compléter le carnet
 - **Echange** : commentaires, observations, incidents, points positifs/négatifs
 - **Sécurité** : pas d'effort, pas d'apnée, pas d'avion avant 12H si plongée unitaire no déco et 24H sinon, s'hydrater, pas de sauna
+
+---
+
+# Questions ?
