@@ -94,7 +94,7 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 ---
 
-# Planification - Brevet
+# Planification - Brevet / Expérience
 
 - **Prérogatives**
   - profondeur maximale
@@ -105,7 +105,7 @@ Regroupés en 3 groupes : Qui ? (ABC) - Où ? (FS) - Comment ? (DEG)
 
 ---
 
-# Qui plonge avec qui ?
+# LIFRAS : Qui plonge avec qui ?
 
 |                 | NB     | 1★     | 2★       | 3★       | 4★       | AM/MC/MF/MN |
 | --------------- | ------ | ------ | -------- | -------- | -------- | ----------- |
@@ -139,7 +139,7 @@ Le serre-file doit être en mesure de reprendre la direction de palanquée.
 - Stress (visibilité, faille, grotte)
 - Sensibilité à la narcose
 - Sensibilité au froid
-- **Envie de plonger**
+- **Envie de plonger** / **En forme**
 - Autres ?
 
 ---
@@ -147,7 +147,7 @@ Le serre-file doit être en mesure de reprendre la direction de palanquée.
 # Planification - Décompression
 
 - Type d'ordinateur / Backup
-- Sévérité / Gradients facteurs
+- Sévérité / Gradients facteurs / Vitesse remontée
 - **Réaliser une simulation** (voir le cour *Décompression*)
 - Palier de sécurité
   - 5 min à 5 m si no-déco
@@ -200,7 +200,7 @@ Le serre-file doit être en mesure de reprendre la direction de palanquée.
 - Numéros d'urgence : Application 112 sur le GSM, DAN, caisson
 - Matériel de sécurité spécifique du lieu (infirmerie, défibrillateur,...)
 - Organisation de la sécurité / Protocole en cas d'incident
-- Rédiger un **Plan de secours**
+- Rédiger un **Plan d'urgence**
 
 ---
 
@@ -250,7 +250,7 @@ Le plan de plongée est la synthèse de la planification.
 
 ---
 
-# Exemple : Plan de sécurité (4/4)
+# Exemple : Plan d'urgence (4/4)
 
 - **Lieu** : Lac de la Plate Taille - Rue d'Oupia 2, 6440 Froidchapelle; Point de sécurité PT09A
 - **Matériel** : O2/DEA/Civière disponibles à l'infirmerie à coté de l'accueil; O2 personnel et bouteille sécurité à côté de la mise à l'eau
@@ -313,7 +313,7 @@ Rappel des paramètres du plan de plongée.
 
 # Briefing - Sécurité
 
-- Plan de secours à portée
+- Plan d'urgence à portée
 - Place du défibrillateur
 - Bouteille d'oxygène équipée et sur le bord
 - Bouteille de réserve équipée
@@ -337,12 +337,14 @@ Rappel des paramètres du plan de plongée.
 
 # Briefing - Matériel
 
+LIFRAS : Acronyme BALISE
+
 - **check respiration**
   mélange / pression / détendeur principal / détendeur secondaire
 - **check équilibrage**
   gilet / inflateur / purges / lestage
 - **check matériel**
-  ordinateur(s) / lampe(s) / parachutes(s) / masque de secours / couteau
+  ordinateur(s) / lampe(s) / parachutes(s) / masque de réserve / couteau
 - **signes distinctifs**
   couleurs / matériel particulier
 
