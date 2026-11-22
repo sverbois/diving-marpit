@@ -1,3 +1,5 @@
 {
-  "markdown.marp.themes": ["./themes/gaia-orange.css"]
+  "markdown.marp.themes": ["./themes/gaia-orange.css"],
+  "markdown-pdf.margin.top": "0.5cm",
+  "markdown-pdf.margin.bottom": "0.5cm"
 }
