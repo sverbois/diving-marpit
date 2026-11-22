@@ -1,44 +1,21 @@
 ---
 marp: true
-theme: gaia
+theme: gaia-orange
 size: 16:9
 paginate: true
-backgroundColor: white
 footer: EPSM Ciney - Mars 2026
-style: |
-  section {
-    padding: 20px 50px;
-    background-image: url('images/diving-mask.png') !important;
-    background-position: right 15px top 15px ;
-    background-repeat: no-repeat;
-    background-size: 8%;
-  }
-  section.lead {background-image:none !important;}
-  section.lead footer {display:none;}
-  section footer {text-align: left;}
-  section h1 {color: #ec7d02;}
-  section.fs-small p {font-size: 30px;}
-  section.fs-small li {font-size: 30px;}
-  section.center {text-align: center;}
-  section.right {text-align: right;}
-  section.white {color: white}
-  section.white h1 {color: white}
-  section table {font-size: 22px; width:100%;}
-  section.ul2cols ul {column-count: 2; column-gap: 2em;}
 ---
 
 <!--
 _paginate: skip
-_class: lead
+_class: lead cover
 -->
 
-![bg left:35% 80%](images/diving-mask.png)
+![w:180](images/diving-mask.png)
 
 # Séjour Gravière du Fort
 
-#### du 18 juillet au 21 juillet 2026
-
-EPSM Ciney
+## Du 18 au 21 juillet 2026
 
 ---
 
@@ -110,7 +87,7 @@ La Gravière du Fort est une ancienne sablière ouverte aux plongeurs depuis 201
 - obligation de deux détenteurs indépendants (2 premiers étages)
 - bouteille d'oxygène et trousse de secours à emporter
 - bouteille d'air de réserve pendue au ponton
-- plan de secours : https://gravieredufort.fr/uploads/menus/270/lAecBPzTGs5qfdU443fuZ7Jbe1zSqCLW/media/plandesecours2023v2r.pdf
+- plan d'urgence : https://gravieredufort.fr/uploads/menus/270/lAecBPzTGs5qfdU443fuZ7Jbe1zSqCLW/media/plandesecours2023v2r.pdf
 
 ---
 
