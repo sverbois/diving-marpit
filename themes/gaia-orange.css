@@ -1,17 +1,21 @@
 /* @theme gaia-orange */
 
-@import 'gaia';
+@import "gaia";
 
 section {
   background-color: white;
   padding: 20px 50px;
-  background-image: url('images/diving-mask.png') !important;
-  background-position: right 15px top 15px ;
+  background-image: url("images/diving-mask.png") !important;
+  background-position: right 15px top 15px;
   background-repeat: no-repeat;
   background-size: 8%;
 }
-section.lead {background-image:none !important;}
-section.lead footer {display:none;}
+section.lead {
+  background-image: none !important;
+}
+section.lead footer {
+  display: none;
+}
 section footer {
   text-align: left;
   left: 50px;
@@ -21,21 +25,77 @@ section footer {
   font-size: 18px;
   color: #8a959e;
 }
-section::after {font-size: 18px; color: #8a959e; right: 50px; padding: 0; bottom: 0; height: auto; line-height: 1; margin-bottom: 30px;}
-section h1 {color: #ec7d02; border-bottom: 1px solid #dde1e4; padding-bottom: 8px; margin-right: 110px; margin-bottom: 24px;}
-section.lead h1 {border-bottom: none; margin-right: 0;}
-section.fs-small p {font-size: 30px;}
-section.fs-small li {font-size: 30px;}
-section.center {text-align: center;}
-section.right {text-align: right;}
-section.white {color: white}
-section.white h1 {color: white}
-section table {font-size: 26px; width: 100%; margin-top: 50px; border-collapse: separate; border-spacing: 0; border: 1px solid #dde1e4; border-radius: 8px; overflow: hidden;}
-section table tr {background: none !important; border: none !important;}
-section table th {background: #fff4e6 !important; color: #ec7d02 !important; border: none !important; border-bottom: 2px solid #ec7d02 !important;}
-section table td {background: none !important; border: none !important; border-bottom: 1px solid #dde1e4 !important;}
-section table tr:last-child td {border-bottom: none !important;}
-section.ul2cols ul {column-count: 2; column-gap: 2em;}
+section::after {
+  font-size: 18px;
+  color: #8a959e;
+  right: 50px;
+  padding: 0;
+  bottom: 0;
+  height: auto;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+section h1 {
+  color: #ec7d02;
+  border-bottom: 1px solid #dde1e4;
+  padding-bottom: 8px;
+  margin-right: 110px;
+  margin-bottom: 24px;
+}
+section.lead h1 {
+  border-bottom: none;
+  margin-right: 0;
+}
+section.fs-small p {
+  font-size: 30px;
+}
+section.fs-small li {
+  font-size: 30px;
+}
+section.center {
+  text-align: center;
+}
+section.right {
+  text-align: right;
+}
+section.white {
+  color: white;
+}
+section.white h1 {
+  color: white;
+}
+section table {
+  font-size: 26px;
+  width: 100%;
+  margin-top: 50px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #dde1e4;
+  border-radius: 8px;
+  overflow: hidden;
+}
+section table tr {
+  background: none !important;
+  border: none !important;
+}
+section table th {
+  background: #fff4e6 !important;
+  color: #ec7d02 !important;
+  border: none !important;
+  border-bottom: 2px solid #ec7d02 !important;
+}
+section table td {
+  background: none !important;
+  border: none !important;
+  border-bottom: 1px solid #dde1e4 !important;
+}
+section table tr:last-child td {
+  border-bottom: none !important;
+}
+section.ul2cols ul {
+  column-count: 2;
+  column-gap: 2em;
+}
 section blockquote {
   border: 3px solid #ec7d02;
   border-radius: 12px;
@@ -43,10 +103,46 @@ section blockquote {
   padding: 0.5em 1em;
   margin: 0.8em 0;
 }
-section blockquote::before, section blockquote::after {content: none;}
-section h2 {text-align: center; color: #ec7d02; font-size: 1.1em; margin: 0.8em 0 0.2em;}
-section h3 {text-align: center; font-size: 1.2em; margin: 0.6em 0;}
-section.cover {outline: 1px solid #dde1e4; outline-offset: -30px;}
-section.cover h1 {font-size: 64px; margin-bottom: 10px;}
-section.cover h2 {font-size: 34px; font-weight: normal; color: #455a64;}
-section.cover h1::after {content: ""; display: block; width: 80px; height: 3px; background: #ec7d02; margin: 28px auto 0;}
+section blockquote::before,
+section blockquote::after {
+  content: none;
+}
+section h2 {
+  text-align: center;
+  color: #ec7d02;
+  font-size: 1.1em;
+  margin: 0.8em 0 0.2em;
+}
+section h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0.6em 0;
+}
+section.cover {
+  outline: 1px solid #dde1e4;
+  outline-offset: -30px;
+}
+section.cover h1 {
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+section.cover h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #455a64;
+  margin-top: 0.3em;
+}
+section.cover h3::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ec7d02;
+  margin: 0 auto 28px;
+}
+section.cover h3 {
+  font-size: 34px;
+  font-weight: normal;
+  color: #8a959e;
+  margin-top: 30px;
+}

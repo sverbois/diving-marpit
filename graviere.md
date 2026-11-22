@@ -17,6 +17,8 @@ _class: lead cover
 
 ## Du 18 au 21 juillet 2026
 
+### EPSM Ciney · Mars 2026
+
 ---
 
 # Infos générale
@@ -63,7 +65,7 @@ La Gravière du Fort est une ancienne sablière ouverte aux plongeurs depuis 201
 
 ---
 
-# Températures moyennes mensuelles
+# Températures moyennes
 
 ![bg 85%](graviere/temperatures.png)
 
