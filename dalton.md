@@ -101,6 +101,56 @@ La **fraction** ne change pas, la **pression partielle** augmente avec la profon
 
 ---
 
+<!-- _class: fs-small -->
+
+# Exercices : loi de Dalton
+
+1. Quelles sont la PpO₂ et la PpN₂ à 25 m à l'air ?
+2. À quelle profondeur la PpN₂ atteint-elle 3,2 bar à l'air ?
+3. Quelle est la profondeur maximale à l'air pour une PpO₂ de 1,6 bar ?
+
+---
+
+<!-- _class: fs-small -->
+
+# Solution 1
+
+On cherche la pression partielle :
+
+### Pp = F × Pabs
+
+- À 25 m : Pabs = 1 + 2,5 = 3,5 bar
+- PpO₂ = 0,21 × 3,5 = **0,735 bar**
+- PpN₂ = 0,79 × 3,5 = **2,765 bar**
+
+---
+
+<!-- _class: fs-small -->
+
+# Solution 2
+
+On cherche la pression absolue :
+
+### Pabs = Pp ÷ F
+
+- Pabs = 3,2 ÷ 0,79 ≈ 4,05 bar
+- Profondeur ≈ (4,05 - 1) × 10 ≈ **30 m**
+
+---
+
+<!-- _class: fs-small -->
+
+# Solution 3
+
+On cherche la pression absolue :
+
+### Pabs = Pp ÷ F
+
+- Pabs = 1,6 ÷ 0,21 ≈ 7,6 bar
+- Profondeur ≈ (7,6 - 1) × 10 ≈ **66 m**
+
+---
+
 # Toxicité des gaz
 
 > Le corps réagit à la **pression partielle** du gaz, pas à sa fraction.
@@ -129,7 +179,7 @@ La **fraction** ne change pas, la **pression partielle** augmente avec la profon
 
 # O₂ : signes et conduite à tenir
 
-- Signes : **CENTAVIVO**
+- Signes de l'effet Paul Bert : **CENTAVIVO**
   - **C**onvulsions, **E**uphorie, **N**ausées, **T**remblements (lèvres, visage), **A**nxiété, **V**ision tunnel, **I**rritabilité, **V**ertiges, **O**reilles (bourdonnements)
 - Au moindre signe : remonter à vitesse normale et terminer la plongée
 - En cas de convulsions :
@@ -221,54 +271,11 @@ La **fraction** ne change pas, la **pression partielle** augmente avec la profon
 
 <!-- _class: fs-small -->
 
-# Exercices
+# Exercices : toxicité des gaz
 
-1. Quelles sont la PpO₂ et la PpN₂ à 25 m à l'air ?
-2. À quelle profondeur la PpN₂ atteint-elle 3,2 bar à l'air ?
-3. Quelle est la profondeur maximale à l'air pour une PpO₂ de 1,6 bar ?
-4. Un air contient 0,002 % de CO. Combien de fois la PpCO est-elle plus élevée à 40 m qu'en surface ?
-5. À 35 m à l'air, ton binôme ne répond plus à tes signes et fixe son manomètre sans réagir. Que se passe-t-il ? Que fais-tu ?
+4. À 35 m à l'air, ton binôme ne répond plus à tes signes et fixe son manomètre sans réagir. Que se passe-t-il ? Que fais-tu ?
+5. Après une plongée à 40 m, ton binôme a mal à la tête, des nausées et les lèvres rouges. Que se passe-t-il ? Que fais-tu ?
 6. Lors d'une plongée profonde, ton binôme a des tremblements des lèvres puis des convulsions. Que fais-tu ?
-
----
-
-<!-- _class: fs-small -->
-
-# Solution 1
-
-On cherche la pression partielle :
-
-### Pp = F × Pabs
-
-- À 25 m : Pabs = 1 + 2,5 = 3,5 bar
-- PpO₂ = 0,21 × 3,5 = **0,735 bar**
-- PpN₂ = 0,79 × 3,5 = **2,765 bar**
-
----
-
-<!-- _class: fs-small -->
-
-# Solution 2
-
-On cherche la pression absolue :
-
-### Pabs = Pp ÷ F
-
-- Pabs = 3,2 ÷ 0,79 ≈ 4,05 bar
-- Profondeur ≈ (4,05 - 1) × 10 ≈ **30 m**
-
----
-
-<!-- _class: fs-small -->
-
-# Solution 3
-
-On cherche la pression absolue :
-
-### Pabs = Pp ÷ F
-
-- Pabs = 1,6 ÷ 0,21 ≈ 7,6 bar
-- Profondeur ≈ (7,6 - 1) × 10 ≈ **66 m**
 
 ---
 
@@ -276,9 +283,10 @@ On cherche la pression absolue :
 
 # Solution 4
 
-- À 40 m : Pabs = 5 bar, en surface : 1 bar
-- La fraction ne change pas → la PpCO est **5 fois plus élevée** à 40 m
-- 0,002 % à 40 m agit comme 0,01 % en surface
+- **Narcose** probable : à 35 m, PpN₂ = 0,79 × 4,5 ≈ 3,6 bar, au-delà de 3,2 bar
+- Attirer son attention et le prendre en charge
+- Remonter ensemble de quelques mètres jusqu'à disparition des signes
+- Poursuivre la plongée moins profond, sans redescendre
 
 ---
 
@@ -286,10 +294,10 @@ On cherche la pression absolue :
 
 # Solution 5
 
-- **Narcose** probable : à 35 m, PpN₂ = 0,79 × 4,5 ≈ 3,6 bar, au-delà de 3,2 bar
-- Attirer son attention et le prendre en charge
-- Remonter ensemble de quelques mètres jusqu'à disparition des signes
-- Poursuivre la plongée moins profond, sans redescendre
+- **Intoxication au CO** probable : air contaminé
+- À 40 m, Pabs = 5 bar → la PpCO est **5 fois plus élevée** qu'en surface
+- Oxygène, alerte 112, caisson selon la gravité
+- Mettre la bouteille de côté et prévenir le centre de gonflage
 
 ---
 
