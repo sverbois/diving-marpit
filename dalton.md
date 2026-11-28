@@ -19,29 +19,22 @@ _class: lead cover
 
 ---
 
-# Pression dans une bouteille
+<!-- _class: fs-small -->
 
-- La pression d’un gaz dans une bouteille est due aux chocs des molécules du gaz contre les parois de la bouteille.
-- Ces molécules sont en mouvement permanent et désordonné.
-- Plus il y a de chocs (ou plus ils sont violents), plus la pression augmente.
+# Pression d'un gaz
 
----
-
-# Fraction
-
-> La **fraction** (F) d'un gaz dans un mélange est le nombre de ses molécules divisé par le nombre total de molécules du mélange.
-
-<br />
-
-### F gaz = N gaz ÷ N total
-
-<br />
-
-### % gaz = F gaz × 100
+- Dans un gaz, les molécules bougent sans cesse dans tous les sens et occupent tout le volume du contenant (bouteille, poumons…).
+- En heurtant ses parois, elles créent la pression.
+- Plus il y a de molécules dans un même volume, plus les chocs sont nombreux.
+- Plus les chocs sont nombreux, plus la pression est élevée.
 
 ---
 
-# Air
+<!-- _class: fs-small -->
+
+# Composition de l'air
+
+> La **fraction** (F) d'un gaz est la part de ses molécules dans un mélange.
 
 | Gaz | Fraction | % |
 |:---|:---:|:---:|
@@ -51,9 +44,7 @@ _class: lead cover
 | Gaz carbonique (CO₂) | 0,0004 | 0,04 % |
 | Autres gaz | traces | traces |
 
-## Simplification pour la plongée
-
-### FN₂ = 0,79 (79 %) et FO₂ = 0,21 (21 %)
+### En plongée : FN₂ = 0,79 (79 %) et FO₂ = 0,21 (21 %)
 
 ---
 
@@ -87,17 +78,21 @@ Conséquence de la loi de Dalton : la pression partielle d'un gaz est égale à 
 
 ---
 
+<!-- _class: fs-small -->
+
 # Et en profondeur ?
 
-| Profondeur | Pabs | PpO₂ | PpN₂ |
-|:---:|:---:|:---:|:---:|
-| 0 m | 1 bar | 0,21 bar | 0,79 bar |
-| 10 m | 2 bar | 0,42 bar | 1,58 bar |
-| 20 m | 3 bar | 0,63 bar | 2,37 bar |
-| 30 m | 4 bar | 0,84 bar | 3,16 bar |
-| 40 m | 5 bar | 1,05 bar | 3,95 bar |
+Grâce au détendeur, le plongeur respire l'air à la pression ambiante (Pabs).
 
-La **fraction** ne change pas, la **pression partielle** augmente avec la profondeur.
+| Profondeur | Pabs | FO₂ | PpO₂ | FN₂ | PpN₂ |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 0 m | 1 bar | 0,21 | 0,21 bar | 0,79 | 0,79 bar |
+| 10 m | 2 bar | 0,21 | 0,42 bar | 0,79 | 1,58 bar |
+| 20 m | 3 bar | 0,21 | 0,63 bar | 0,79 | 2,37 bar |
+| 30 m | 4 bar | 0,21 | 0,84 bar | 0,79 | 3,16 bar |
+| 40 m | 5 bar | 0,21 | 1,05 bar | 0,79 | 3,95 bar |
+
+Les **fractions** d'O₂ et de N₂ ne changent pas, les **pressions partielles** augmentent avec la profondeur.
 
 ---
 
@@ -169,9 +164,9 @@ On cherche la pression absolue :
 - PpO₂ > **1,6 bar** : effet **Paul Bert** (système nerveux)
   - convulsions, parfois sans signe avant-coureur → risque de noyade
   - à l'air, 1,6 bar est atteint vers **66 m**
-- PpO₂ > **0,5 bar** pendant des heures : effet **Lorrain Smith** (poumons)
+- PpO₂ > **0,5 bar** pendant des jours : effet **Lorrain Smith** (poumons)
   - toux sèche, difficultés respiratoires
-  - risque négligeable en plongée loisir
+  - pas de risque en plongée loisir
 
 ---
 
@@ -194,7 +189,7 @@ On cherche la pression absolue :
 
 - Ivresse des profondeurs, due à la **PpN₂**
 - Premiers signes vers PpN₂ ≈ **3,2 bar** (≈ 30 m à l'air)
-- Seuil conventionnel : PpN₂ ≈ **6,4 bar** (≈ 70 m à l'air) : personne n'y échappe
+- Seuil conventionnel à la LIFRAS : PpN₂ ≈ **6,4 bar** (≈ 70 m à l'air) : personne n'y échappe
 - Sensibilité variable d'un plongeur à l'autre et d'un jour à l'autre
 - Facteurs aggravants : froid, stress, fatigue, alcool, médicaments, effort, CO₂
 
@@ -230,7 +225,7 @@ On cherche la pression absolue :
 
 - Signes : respiration rapide et superficielle, sensation de manquer d'air, maux de tête, angoisse
 - L'essoufflement est **souvent à l'origine d'un autre accident** (panique, remontée rapide) et il **aggrave la narcose**
-- Conduite à tenir : arrêter l'effort, prévenir le binôme, expirer à fond, se calmer, remonter lentement
+- Conduite à tenir : arrêter l'effort, prévenir le binôme, expirer à fond en se calmant au moins 3x, remonter lentement
 - Prévention : rester calme, respirer lentement et profondément, lestage adapté, détendeur entretenu
 
 ---
@@ -252,7 +247,7 @@ On cherche la pression absolue :
 - Signes : maux de tête, vertiges, nausées, faiblesse, perte de connaissance
 - Lèvres et joues **rouge cerise** (et non bleues)
 - Conduite à tenir : sortir de l'eau, oxygène, alerte 112, caisson selon la gravité
-- Prévention : gonfler dans un centre sérieux, prise d'air loin de tout échappement
+- Prévention : gonfler dans un centre sérieux, prise d'air loin de tout échappement, avoir un analyseur avec détection de CO
 
 ---
 
